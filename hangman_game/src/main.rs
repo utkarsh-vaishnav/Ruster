@@ -9,6 +9,16 @@ fn main() {
         "lamborghini",
         "bugatti",
         "ferrari",
+        "Pagani",
+        "koenigsegg",
+        "mclaren",
+        "porsche",
+        "bentley",
+        "maserati",
+        "aston-martin",
+        "rolls-royce",
+        "Audi",
+        "lotus",
     ];
     let mut rng = rand::thread_rng();
     let word = words.choose(&mut rng).expect("Failed to select word");
